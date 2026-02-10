@@ -30,7 +30,10 @@ export default function RootLayout({
         <Navbar />
 
         {/* Page content */}
-        <main>{children}</main>
+        <main className="pt-16">
+  {children}
+</main>
+
 
         {/* Footer */}
         <Footer />
